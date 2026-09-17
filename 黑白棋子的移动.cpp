@@ -32,8 +32,8 @@ void dfs(int x)
         move(5);
         return ;
     }
-    move(x-1);   // 修改这里！！x改成x-1
-    move(2*x -1); // 修改这里！2*x改成2*x-1
+    move(x-1);   
+    move(2*x -1); 
     dfs(x-1);
 }
 int main()
